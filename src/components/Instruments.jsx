@@ -4,36 +4,36 @@ import { motion, AnimatePresence } from 'framer-motion';
 const instruments = [
     {
         category: '木管樂器 Woodwind',
-        description: '音色圓潤、技巧靈活',
+        description: '笛類樂器，透過空氣在管中震動發聲，音色圓潤',
         color: 'from-amber-400 to-orange-500',
         items: [
-            { name: '長笛', en: 'Flute', desc: '清亮優美，樂團中的花腔女高音' },
-            { name: '短笛', en: 'Piccolo', desc: '尖銳響亮，音域最高的木管樂器' },
-            { name: '豎笛', en: 'Clarinet', desc: '音域寬廣，管樂團中的小提琴' },
-            { name: '薩克斯風', en: 'Saxophone', desc: '橫跨爵士與古典，極具表現力' },
+            { name: '長笛', en: 'Flute', desc: '音色清亮明快，中高音區穿透力強，技巧靈活，猶如樂團中的花腔女高音。' },
+            { name: '短笛', en: 'Piccolo', desc: '長度為長笛一半，音域極高，穿透力強，常在進行曲中帶動活潑氣氛。' },
+            { name: '豎笛', en: 'Clarinet', desc: '音樂表現力極強，音域寬廣，音色溫暖，在管樂團中扮演小提琴般的重要角色。' },
+            { name: '薩克斯風', en: 'Saxophone', desc: '家族龐大，音色介於木管與銅管之間，接近人聲，橫跨爵士與古典，極具感染力。' },
         ]
     },
     {
         category: '銅管樂器 Brass',
-        description: '音色莊嚴、富麗堂皇',
+        description: '音色莊嚴，富麗堂皇，能表現澎湃氣勢',
         color: 'from-yellow-400 to-yellow-600',
         items: [
-            { name: '小號', en: 'Trumpet', desc: '嘹亮輝煌，銅管樂器的領導者' },
-            { name: '法國號', en: 'French Horn', desc: '溫潤融合，連接木管與銅管的橋樑' },
-            { name: '長號', en: 'Trombone', desc: '滑管獨特，擁有莊嚴的人聲特質' },
-            { name: '上低音號', en: 'Euphonium', desc: '音色溫柔寬厚，具歌唱性的銅管' },
-            { name: '低音號', en: 'Tuba', desc: '樂團基石，提供厚實的低音支撐' },
+            { name: '小號', en: 'Trumpet', desc: '音色明亮、穿透力強，常用於表現勝利與凱旋，是銅管樂器的領導者。' },
+            { name: '法國號', en: 'French Horn', desc: '音色溫暖多變，管身呈螺旋狀，是連接木管與銅管聲部的完美橋樑。' },
+            { name: '長號', en: 'Trombone', desc: '利用伸縮滑管改變音高，音色莊嚴且富有人聲特質，能演奏獨特的滑音。' },
+            { name: '上低音號', en: 'Euphonium', desc: '音色溫柔寬厚，具有極佳的歌唱性，在管樂團中常擔任獨奏角色。' },
+            { name: '低音號', en: 'Tuba', desc: '體積最大、音域最低，提供樂團厚實穩定的低音支撐，是樂團的基石。' },
         ]
     },
     {
         category: '打擊樂器 Percussion',
-        description: '節奏的靈魂',
+        description: '節奏的靈魂，種類繁多，增添音樂色彩',
         color: 'from-red-500 to-rose-600',
         items: [
-            { name: '定音鼓', en: 'Timpani', desc: '可調音高，管弦樂團中最重要的打擊樂器' },
-            { name: '大鼓/小鼓', en: 'Bass/Snare Drum', desc: '控制節奏與力度的核心' },
-            { name: '鍵盤打擊', en: 'Mallets', desc: '木琴、鐵琴，增添旋律色彩' },
-            { name: '爵士鼓', en: 'Drum Set', desc: '現代管樂曲風的節奏引擎' },
+            { name: '定音鼓', en: 'Timpani', desc: '可調音高，音色渾厚莊嚴，是管弦樂團中最重要的節奏與氣氛營造者。' },
+            { name: '大鼓/小鼓', en: 'Bass/Snare Drum', desc: '大鼓提供低音震撼，小鼓穿透力強，共同構成樂團節奏的核心。' },
+            { name: '鍵盤打擊', en: 'Mallets', desc: '包括木琴 (Xylophone) 與鐵琴 (Glockenspiel) 等，音色清脆明亮，增添旋律色彩。' },
+            { name: '綜合打擊', en: 'Auxiliary', desc: '包含鈴鼓、三角鐵等各式樂器，為音樂增添豐富的節奏律動與點綴。' },
         ]
     }
 ];

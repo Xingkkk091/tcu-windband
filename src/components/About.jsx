@@ -32,10 +32,10 @@ const About = () => {
                         </h3>
                         <p className="text-gray-600 leading-relaxed mb-6 text-lg">
                             慈濟大學管樂社的前身為<span className="font-semibold text-primary-600">慈濟技術學院管樂社</span>，成立於 2014 年。
-                            秉持著對音樂的熱愛，我們在校園中播撒音樂的種子。
+                            從最初沒有任何樂器，到聘請郭又銘老師、蔣夢湘老師指導，一步步成長。
                         </p>
-                        <p className="text-gray-600 leading-relaxed text-lg">
-                            2024 年，隨著學校體制的改變，我們正式與慈濟大學合併，成為了全新的「慈濟大學管樂社」。
+                        <p className="text-gray-600 leading-relaxed mb-6 text-lg">
+                            2016 年聘請廖昱傑老師擔任指揮，2017 年首次參加全國學生音樂比賽決賽。2024 年隨著兩校合併，正式更名為「慈濟大學管樂社」。
                             雖然名稱改變，但我們「透過不同聲音的結合，在旋律的道路上相會」的初衷從未改變。
                         </p>
                     </motion.div>
@@ -50,19 +50,22 @@ const About = () => {
                             <div className="mb-6 flex items-center justify-center p-6 bg-gray-50 rounded-full w-24 h-24 mx-auto">
                                 <Music size={48} className="text-primary-500" />
                             </div>
-                            <h4 className="text-xl font-bold text-center mb-4">社團徽章的意義</h4>
-                            <ul className="space-y-4 text-gray-600">
+                            <h4 className="text-xl font-bold text-center mb-4">社徽的意義</h4>
+                            <p className="text-gray-600 leading-relaxed text-sm mb-4">
+                                管樂是管樂器吹出快樂的旋律所代表。圖騰上面有各種管樂器，銅管、木管以及打擊連成一線，象徵我們彼此透過不同聲音結合。
+                            </p>
+                            <ul className="space-y-4 text-gray-600 text-sm">
                                 <li className="flex items-start gap-3">
                                     <span className="w-2 h-2 mt-2 bg-primary-500 rounded-full flex-shrink-0"></span>
-                                    <span><strong>三位一體：</strong>圖騰將銅管、木管及打擊樂器連成一線，象徵樂團缺一不可的團結精神。</span>
+                                    <span><strong>橘色樂譜：</strong>代表樂譜的顏色，象徵溫暖與活力。</span>
                                 </li>
                                 <li className="flex items-start gap-3">
                                     <span className="w-2 h-2 mt-2 bg-primary-500 rounded-full flex-shrink-0"></span>
-                                    <span><strong>橘色樂譜：</strong>主色調橘色代表著樂譜，象徵溫暖與活力。</span>
+                                    <span><strong>飛揚音符：</strong>在不同的樂器加入之後飛出亮色的音符，象徵我們用手中的樂器吹奏屬於自己的音符。</span>
                                 </li>
                                 <li className="flex items-start gap-3">
                                     <span className="w-2 h-2 mt-2 bg-primary-500 rounded-full flex-shrink-0"></span>
-                                    <span><strong>飛揚音符：</strong>躍動的音符代表我們對音樂永遠的熱愛與追求。</span>
+                                    <span><strong>管樂精神：</strong>代表著管樂無所不在，我們熱愛音樂到永遠。</span>
                                 </li>
                             </ul>
                         </div>

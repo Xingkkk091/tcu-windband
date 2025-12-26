@@ -37,13 +37,16 @@ const Faculty = () => {
                         </div>
                         <div className="p-8">
                             <div className="mb-4">
-                                <h4 className="text-sm font-bold text-gray-400 uppercase tracking-wider mb-2">專業領域</h4>
-                                <p className="text-gray-800 font-semibold">低音管 (Bassoon) 演奏與教學</p>
+                                <h4 className="text-sm font-bold text-gray-400 uppercase tracking-wider mb-2">學歷與經歷</h4>
+                                <p className="text-gray-800 font-semibold mb-2">東海大學音樂系畢業</p>
+                                <p className="text-gray-600 text-sm">
+                                    就讀新竹高中時開始學習低音管。曾指導新竹中學、花蓮高中、花崗國中等多所學校管樂團低音管分部，並擔任指揮。
+                                </p>
                             </div>
                             <div>
-                                <h4 className="text-sm font-bold text-gray-400 uppercase tracking-wider mb-2">經歷</h4>
+                                <h4 className="text-sm font-bold text-gray-400 uppercase tracking-wider mb-2">指揮風格</h4>
                                 <p className="text-gray-600 leading-relaxed text-sm">
-                                    畢業於東海大學音樂系。擁有豐富的管樂團指導經驗，曾指導新竹中學、花蓮高中等多所學校管樂社，致力於提升學生音樂素養與演奏技巧。
+                                    擁有豐富的帶團經驗，致力於提升樂團的合奏能力與音樂表現力，帶領慈濟大學管樂社在比賽中屢獲佳績。
                                 </p>
                             </div>
                         </div>
@@ -70,12 +73,12 @@ const Faculty = () => {
                         <div className="p-8">
                             <div className="mb-4">
                                 <h4 className="text-sm font-bold text-gray-400 uppercase tracking-wider mb-2">職務</h4>
-                                <p className="text-gray-800 font-semibold">課外活動指導組 組員</p>
+                                <p className="text-gray-800 font-semibold">慈濟大學 課外活動指導組</p>
                             </div>
                             <div>
-                                <h4 className="text-sm font-bold text-gray-400 uppercase tracking-wider mb-2">貢獻</h4>
+                                <h4 className="text-sm font-bold text-gray-400 uppercase tracking-wider mb-2">關於老師</h4>
                                 <p className="text-gray-600 leading-relaxed text-sm">
-                                    長期陪伴與支持社團發展，協助處理社團行政事務與資源協調，是社團最強大的後盾，讓同學們能無後顧之憂地投入音樂練習。
+                                    雖然沒有音樂背景，但有一顆熱愛管樂及社團夥伴的心。長期協助社團辦理各項相關事務，時常給予我們支持及陪伴，是社團最溫暖的依靠。
                                 </p>
                             </div>
                         </div>
