@@ -43,12 +43,12 @@ const Navbar = () => {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex items-center justify-between h-16">
                     {/* Logo */}
-                    <Link to="/" className="flex-shrink-0 flex items-center gap-2 cursor-pointer">
-                        <div className="w-10 h-10 bg-primary-500 rounded-full flex items-center justify-center text-white">
+                    <Link to="/" className="flex items-center gap-2 group">
+                        <div className={`p-2 rounded-xl transition-all duration-300 ${scrolled ? 'bg-gradient-to-br from-primary-500 to-secondary-500 text-white' : 'bg-white/20 text-white backdrop-blur-md'}`}>
                             <Music size={24} />
                         </div>
-                        <span className={`font-bold text-xl tracking-wide ${scrolled || location.pathname !== '/' ? 'text-gray-900' : 'text-white'}`}>
-                            TCU Wind Band
+                        <span className={`text-xl font-bold transition-colors duration-300 ${scrolled || location.pathname !== '/' ? 'text-gray-900' : 'text-white'}`}>
+                            TCU管樂
                         </span>
                     </Link>
 
@@ -60,10 +60,10 @@ const Navbar = () => {
                                     key={link.name}
                                     to={link.path}
                                     className={`px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 ${isActive(link.path)
-                                            ? 'text-primary-600 bg-primary-50'
-                                            : scrolled || location.pathname !== '/'
-                                                ? 'text-gray-700 hover:text-primary-500 hover:bg-gray-50'
-                                                : 'text-white/90 hover:text-white hover:bg-white/10'
+                                        ? 'text-primary-600 bg-primary-50'
+                                        : scrolled || location.pathname !== '/'
+                                            ? 'text-gray-700 hover:text-primary-500 hover:bg-gray-50'
+                                            : 'text-white/90 hover:text-white hover:bg-white/10'
                                         }`}
                                 >
                                     {link.name}
@@ -101,8 +101,8 @@ const Navbar = () => {
                                     to={link.path}
                                     onClick={() => setIsOpen(false)}
                                     className={`block px-3 py-2 rounded-md text-base font-medium ${isActive(link.path)
-                                            ? 'text-primary-600 bg-primary-50'
-                                            : 'text-gray-700 hover:text-primary-500 hover:bg-gray-50'
+                                        ? 'text-primary-600 bg-primary-50'
+                                        : 'text-gray-700 hover:text-primary-500 hover:bg-gray-50'
                                         }`}
                                 >
                                     {link.name}
