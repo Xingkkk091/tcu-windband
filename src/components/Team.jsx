@@ -27,7 +27,6 @@ const Team = () => {
 
     const sectionLeaders = [
         { role: '長笛組長', name: '待更新', photo: null },
-        { role: '雙簧管組長', name: '待更新', photo: null },
         { role: '豎笛組長', name: '待更新', photo: null },
         { role: '薩克斯風組長', name: '待更新', photo: null },
         { role: '銅管組長', name: '待更新', photo: null },

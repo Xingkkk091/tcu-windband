@@ -10,6 +10,7 @@ import Contact from './components/Contact';
 import Gallery from './components/Gallery';
 import ScrollToTop from './components/ScrollToTop';
 import AudioVisualizer from './components/AudioVisualizer';
+import Footer from './components/Footer';
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
@@ -29,6 +30,7 @@ const Home = () => (
       <Schedule />
     </main>
     <Contact />
+    <Footer />
     <ScrollToTop />
   </div>
 );

@@ -9,7 +9,6 @@ const instruments = [
         items: [
             { name: '長笛', en: 'Flute', desc: '清亮優美，樂團中的花腔女高音' },
             { name: '短笛', en: 'Piccolo', desc: '尖銳響亮，音域最高的木管樂器' },
-            { name: '雙簧管', en: 'Oboe', desc: '音色獨特帶有鼻音，常擔任定音樂器' },
             { name: '豎笛', en: 'Clarinet', desc: '音域寬廣，管樂團中的小提琴' },
             { name: '薩克斯風', en: 'Saxophone', desc: '橫跨爵士與古典，極具表現力' },
         ]
@@ -63,8 +62,8 @@ const Instruments = () => {
                             key={index}
                             onClick={() => setActiveTab(index)}
                             className={`px-6 py-3 rounded-full text-lg font-medium transition-all duration-300 ${activeTab === index
-                                    ? `bg-gradient-to-r ${inst.color} text-white shadow-lg scale-105`
-                                    : 'bg-gray-800 text-gray-400 hover:bg-gray-700'
+                                ? `bg-gradient-to-r ${inst.color} text-white shadow-lg scale-105`
+                                : 'bg-gray-800 text-gray-400 hover:bg-gray-700'
                                 }`}
                         >
                             {inst.category.split(' ')[0]}
