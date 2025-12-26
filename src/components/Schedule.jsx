@@ -13,7 +13,7 @@ const Schedule = () => {
     ];
 
     return (
-        <section id="schedule" className="py-20 bg-gray-50">
+        <section id="schedule" className="py-12 md:py-20 bg-gray-50">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <motion.div
                     initial={{ opacity: 0, y: 20 }}
@@ -77,13 +77,13 @@ const Schedule = () => {
                                 <div
                                     key={idx}
                                     className={`p-4 rounded-xl border transition-all hover:scale-105 ${item.type === 'concert' ? 'bg-amber-50 border-amber-200' :
-                                            item.type === 'training' ? 'bg-blue-50 border-blue-200' :
-                                                'bg-green-50 border-green-200'
+                                        item.type === 'training' ? 'bg-blue-50 border-blue-200' :
+                                            'bg-green-50 border-green-200'
                                         }`}
                                 >
                                     <div className={`text-sm font-bold mb-1 ${item.type === 'concert' ? 'text-amber-600' :
-                                            item.type === 'training' ? 'text-blue-600' :
-                                                'text-green-600'
+                                        item.type === 'training' ? 'text-blue-600' :
+                                            'text-green-600'
                                         }`}>
                                         {item.month}
                                     </div>

@@ -36,7 +36,7 @@ const Gallery = () => {
     ];
 
     return (
-        <section id="gallery" className="py-20 bg-gray-900 text-white">
+        <section id="gallery" className="py-12 md:py-20 bg-gray-900 text-white">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <motion.div
                     initial={{ opacity: 0, y: 20 }}
@@ -62,7 +62,7 @@ const Gallery = () => {
                             viewport={{ once: true }}
                             transition={{ delay: index * 0.1 }}
                             className={`relative group overflow-hidden rounded-xl cursor-pointer ${photo.size === 'large' ? 'md:col-span-2 md:row-span-2' :
-                                    photo.size === 'medium' ? 'md:col-span-2' : ''
+                                photo.size === 'medium' ? 'md:col-span-2' : ''
                                 }`}
                         >
                             <img

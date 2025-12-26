@@ -42,7 +42,7 @@ const Instruments = () => {
     const [activeTab, setActiveTab] = useState(0);
 
     return (
-        <section id="instruments" className="py-20 bg-gray-900 text-white">
+        <section id="instruments" className="py-12 md:py-20 bg-gray-900 text-white">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <motion.div
                     initial={{ opacity: 0, y: 20 }}

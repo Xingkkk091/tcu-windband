@@ -30,7 +30,7 @@ const News = () => {
     ];
 
     return (
-        <section className="py-20 bg-gray-50">
+        <section className="py-12 md:py-20 bg-gray-50">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <motion.div
                     initial={{ opacity: 0, y: 20 }}
@@ -55,8 +55,8 @@ const News = () => {
                             <div className="flex items-center justify-between mb-4">
                                 <span className="text-sm text-gray-500 font-mono">{item.date}</span>
                                 <span className={`px-3 py-1 rounded-full text-xs font-semibold ${item.category === '比賽捷報' ? 'bg-yellow-100 text-yellow-800' :
-                                        item.category === '活動回顧' ? 'bg-primary-100 text-primary-800' :
-                                            'bg-secondary-100 text-secondary-800'
+                                    item.category === '活動回顧' ? 'bg-primary-100 text-primary-800' :
+                                        'bg-secondary-100 text-secondary-800'
                                     }`}>
                                     {item.category}
                                 </span>

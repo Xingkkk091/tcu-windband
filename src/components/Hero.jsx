@@ -23,7 +23,7 @@ const Hero = () => {
                     <span className="inline-block py-1 px-3 rounded-full bg-primary-500/20 border border-primary-500/50 text-primary-200 text-sm md:text-base font-medium mb-6 backdrop-blur-sm">
                         Tzu Chi University Wind Band
                     </span>
-                    <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold text-white mb-6 tracking-tight leading-tight">
+                    <h1 className="text-4xl md:text-7xl lg:text-8xl font-bold text-white mb-6 tracking-tight leading-tight">
                         慈濟大學<span className="text-primary-500">管樂社</span>
                     </h1>
                     <p className="text-lg md:text-2xl text-gray-200 mb-10 font-light max-w-2xl mx-auto">
