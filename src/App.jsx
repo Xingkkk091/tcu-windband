@@ -7,6 +7,7 @@ import Instruments from './components/Instruments';
 import Team from './components/Team';
 import Schedule from './components/Schedule';
 import Contact from './components/Contact';
+import Gallery from './components/Gallery';
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
@@ -18,6 +19,7 @@ const Home = () => (
       <Hero />
       <News />
       <About />
+      <Gallery />
       <Faculty />
       <Instruments />
       <Team />
