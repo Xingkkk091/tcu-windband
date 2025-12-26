@@ -8,6 +8,8 @@ import Team from './components/Team';
 import Schedule from './components/Schedule';
 import Contact from './components/Contact';
 import Gallery from './components/Gallery';
+import ScrollToTop from './components/ScrollToTop';
+import AudioVisualizer from './components/AudioVisualizer';
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
@@ -17,6 +19,7 @@ const Home = () => (
     <Navbar />
     <main>
       <Hero />
+      <AudioVisualizer />
       <News />
       <About />
       <Gallery />
@@ -26,6 +29,7 @@ const Home = () => (
       <Schedule />
     </main>
     <Contact />
+    <ScrollToTop />
   </div>
 );
 
