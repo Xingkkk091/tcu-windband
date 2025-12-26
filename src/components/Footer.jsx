@@ -1,4 +1,5 @@
 import { Music, Facebook, Instagram, Github, Mail, MapPin } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
@@ -33,11 +34,11 @@ const Footer = () => {
                     <div>
                         <h3 className="text-lg font-bold mb-4 text-primary-500">快速連結</h3>
                         <ul className="space-y-2 text-sm text-gray-300">
-                            <li><a href="#home" className="hover:text-primary-400 transition-colors">首頁</a></li>
-                            <li><a href="#about" className="hover:text-primary-400 transition-colors">關於我們</a></li>
-                            <li><a href="#gallery" className="hover:text-primary-400 transition-colors">精彩回顧</a></li>
-                            <li><a href="#faculty" className="hover:text-primary-400 transition-colors">指導團隊</a></li>
-                            <li><a href="#schedule" className="hover:text-primary-400 transition-colors">年度行事曆</a></li>
+                            <li><Link to="/" className="hover:text-primary-400 transition-colors">首頁</Link></li>
+                            <li><Link to="/about" className="hover:text-primary-400 transition-colors">關於我們</Link></li>
+                            <li><Link to="/gallery" className="hover:text-primary-400 transition-colors">精彩回顧</Link></li>
+                            <li><Link to="/faculty" className="hover:text-primary-400 transition-colors">指導團隊</Link></li>
+                            <li><Link to="/schedule" className="hover:text-primary-400 transition-colors">年度行事曆</Link></li>
                         </ul>
                     </div>
 
