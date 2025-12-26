@@ -4,30 +4,30 @@ import { User, Users, Music } from 'lucide-react';
 const Team = () => {
     // 主要幹部
     const executives = [
-        { role: '社長 / 打擊組長', name: '蕭辰芳', dept: '護五三F', photo: null },
-        { role: '副社長', name: '黃星翔', dept: '資四二A', photo: null },
+        { role: '社長 / 打擊組長', name: '待更新', dept: '', photo: null },
+        { role: '副社長', name: '待更新', dept: '', photo: null },
     ];
 
-    const studentConductor = { role: '學生指揮', name: '林偉誠', dept: '護二一A', photo: null };
+    const studentConductor = { role: '學生指揮', name: '待更新', dept: '', photo: null };
 
     const sectionLeaders = [
-        { role: '長笛組長', name: '李承恩', photo: null },
-        { role: '豎笛組長', name: '林加雅', photo: null },
-        { role: '薩克斯風組長', name: '莊雅倢', photo: null },
-        { role: '小號組長', name: '馬冠桀', photo: null },
-        { role: '法國號組長', name: '陳姝佑', photo: null },
-        { role: '低銅組長', name: '王沁愉', photo: null },
+        { role: '長笛組長', name: '待更新', photo: null },
+        { role: '豎笛組長', name: '待更新', photo: null },
+        { role: '薩克斯風組長', name: '待更新', photo: null },
+        { role: '小號組長', name: '待更新', photo: null },
+        { role: '法國號組長', name: '待更新', photo: null },
+        { role: '低銅組長', name: '待更新', photo: null },
         // 打擊組長由社長兼任
     ];
 
     const adminTeam = [
-        { role: '執行秘書', name: '李苡綺', dept: '護五三D' },
-        { role: '財務長', name: '林竩晰', dept: '護五三E' },
-        { role: '器材長', name: '莊雅倢', dept: '護五三E' },
-        { role: '文書長', name: '王沁愉', dept: '護五二A' },
-        { role: '資訊長', name: '李承恩', dept: '護五二A' },
-        { role: '美宣長', name: '林亦珊', dept: '護四四A' },
-        { role: '譜務', name: '陳靜玟', dept: '護四三A' },
+        { role: '執行秘書', name: '待更新', dept: '' },
+        { role: '財務長', name: '待更新', dept: '' },
+        { role: '器材長', name: '待更新', dept: '' },
+        { role: '文書長', name: '待更新', dept: '' },
+        { role: '資訊長', name: '待更新', dept: '' },
+        { role: '美宣長', name: '待更新', dept: '' },
+        { role: '譜務', name: '待更新', dept: '' },
     ];
 
     // 人員卡片組件
